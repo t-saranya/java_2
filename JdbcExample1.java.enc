@@ -4,8 +4,8 @@ public class JdbcExample1 {
 
     public static void main(String[] args) throws SQLException,ClassNotFoundException{
         String url="jdbc:mysql://localhost:3306/Inventory";
-        String user="siri.s";
-        String pass="radhasrinivas";
+        String user="Saranya";
+        String pass="123";
         String query="select MAX(TEMP) AS Lowtemp FROM City";
         Connection con;
         Statement st;
