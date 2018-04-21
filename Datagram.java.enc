@@ -5,7 +5,7 @@ public class Datagram
 public static void main(String args[])throws Exception
 {
 DatagramSocket ds= new DatagramSocket(505);
-String str="Prudhvi krishna";
+String str="Saranya";
 byte[] buff=new byte[300];
 buff=str.getBytes();
 try{
